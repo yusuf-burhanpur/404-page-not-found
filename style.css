@@ -1,0 +1,64 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.scarecrow {
+    width: 100%;
+    margin-top: 40px;
+}
+.navbar-brand {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: -8%;
+    color: #333333;
+}
+.navbar-brand:hover {
+    color: #333333;
+}
+.row-2 h1 {
+    font-family: 'Space Mono', monospace;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.row-2 p {
+    font-family: 'Space Mono', monospace;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 50px;
+}
+.row-2 button {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-top: 50px;
+    color: white;
+    width: 216px;
+    height: 68px;
+    background: #333333;
+}
+.footer {
+    text-align: center;
+    color: #BDBDBD;
+    font-size: 14px;
+    margin-top: 30px;
+}
+@media  (min-width: 390px) and (max-width: 768px){
+    .scarecrow {
+        width: 80%;
+    }
+    /* .row-2 {
+        width: 80%;
+    } */
+    .row-2 h1 {
+        font-size: 48px;
+    }
+    .row-2 p {
+        font-size: 18px;
+    }
+    .footer {
+        margin-top: 30px;
+    }
+}
